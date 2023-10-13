@@ -1,0 +1,210 @@
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    font-family: 'Cinzel Decorative', fantasy, serif ;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.quiz-container {
+    width: fill;
+    height: fill;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.question-container{
+    /*margin-top: -35em;
+    margin-bottom: 10em;*/
+    position: relative;
+     top: -950px; 
+     left: -250px; 
+     margin-left: 50px; 
+     margin-right: 50px;
+    /*display: flex;
+    flex-direction: column;
+    align-items: right;*/
+}
+
+.question-text{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 75px;
+}
+
+.question {
+    display: none;
+    text-align: right;
+}
+
+.title1{
+    font-size: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 65vh;
+    margin: 80px;
+    line-height: .00000001;
+    margin-top: -0.2em; 
+}
+
+.title2{
+    font-size: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 65vh;
+    margin: 325px;
+    line-height: .00000001;
+    margin-top: -3.7em; 
+}
+
+input[type="radio"] {
+    transform: scale(2.5);
+    margin-right: 50px;
+    margin-top: 50px;
+
+}
+
+ul {
+    font-family: 'Times New Roman', Times, serif;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: grid;
+    height: 100%;
+    justify-items: right;
+}
+
+.answer-option label {
+    width: 200px; /* Adjust the width as needed */
+    text-align: left;
+    font-size: 40px; /* Adjust the font size as needed */
+    translate: -125px
+}
+
+button {
+    display: box;
+    margin-top: 20px;
+    float: right;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+/*html, body {
+    width: 50%;
+    height: 100%
+}
+
+body {
+    background: linear-gradient(-45deg,
+#ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    position:absolute
+}
+
+
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*html{
+    --s: 200px;
+
+    background: repeating-conic-gradient(from 30deg, #0000 0 120deg, #3c3c3c 0 180deg)
+    calc(.5*var(--s)) calc(.5*var(--s)*0.577),
+    repeating-conic-gradient(from 30deg, #1d1d1d 0 60deg, #4e4f51 0 120deg, #3c3c3c 0 180deg);
+    background-size: var(--s) calc(var(--s)*0.577);
+}
+*/
+
+
+
+
+
+
+
+
+
+/*.trivia{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 65vh;
+    margin: 325px;
+    line-height: .00000001;
+    margin-top: 1.2em;
+}
+
+.coding{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 65vh;
+    margin: 325px;
+    line-height: .00000001;
+    margin-top: 1.2em; 
+}
+
+
+h1 {
+    text-align: left;
+    font-size: 150px;
+    line-height: .00000001;
+    margin: 50px;
+} 
+*/

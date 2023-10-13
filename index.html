@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<style>
+    body {
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+</style>
+
+<body>
+
+
+    <div class="quiz-container">
+        <div class="title-container">
+        <h1 class='title1'><span style="font-family: script">Coding </span></h1>
+        <h1 class='title2'>Trivia</h1>
+        </div>
+
+        <div class="question-container">
+         <div class="question">
+            <h2 style="font-size: 75px;"> Question 1 </h2>
+            <p  class="question-text" style="font-size: 40px;">What is the capital of France?</p>
+            <ul>
+                <li class="answer-option" style="font-size: 40px;"> <label> <input type="radio" name="q1" value="paris">Paris</label> </li>
+                <li class="answer-option" style="font-size: 40px;"><label><input type="radio" name="q1" value="london">London</label></li>
+                <li class="answer-option" style="font-size: 40px;"><label><input type="radio" name="q1" value="berlin">Berlin</label></li>
+                <li class="answer-option" style="font-size: 40px;"> <label> <input type="radio" name="q1" value="JOE">JOE</label> </li>
+                <li class="answer-option" style="font-size: 40px;"> <label> <input type="radio" name="q1" value="paris">peepee</label> </li>
+            </ul>
+         
+        </div>
+
+        <div class="question">
+            <h2 style="font-size: 100px;">Question 2</h2>
+            <p class="question-text"> What is 2 + 2?</p>
+            <ul>
+                <li><label><input type="radio" name="q2" value="3">3</label></li>
+                <li><label><input type="radio" name="q2" value="4">4</label></li>
+                <li><label><input type="radio" name="q2" value="5">5</label></li>
+            </ul>
+        </div>
+
+
+        <button id="next-button">Next</button>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
