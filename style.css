@@ -102,10 +102,13 @@ h2{
     font-family: 'Times New Roman', Times, serif;
 }
 
+
+/* .ball is also an addition from Nash Vail on codepen.io
+   Opacity changes were made as well as screen coverage being reduced */
 .ball { 
     position: absolute;
     border-radius: 100%;
-    opacity: 0.7;
+    opacity: 0.3;
     }
 
 

@@ -16,7 +16,16 @@ nextButton.addEventListener('click', () => {
 questions[currentQuestionIndex].classList.add('active');
 
 
-// Some random colors
+
+
+
+
+
+// Source of ball base code =>  codepen.io
+// Created by Nash Vail
+
+
+//Colors of balls were adjusted as well as number of balls.
 const colors = ["#000000", "#000000", "#000000", "#000000", "#000000"];
 
 const numBalls = 50;
@@ -36,7 +45,7 @@ for (let i = 0; i < numBalls; i++) {
   document.body.append(ball);
 }
 
-// Keyframes
+
 balls.forEach((el, i, ra) => {
   let to = {
     x: Math.random() * (i % 2 === 0 ? -11 : 11),
